@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Roboto:wght@100;300;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./sass/style.css" />
+
+    <title>Komugi Home Page</title>
+  </head>
+
+  <body>
+    <!-- section-header -->
+    <header>
+      <div class="popup-nav">
+        <h2>BOOK YOUR TABLE NOW</h2>
+        <div class="popup-content">
+          <div class="card-img"></div>
+          <div class="card-txt">
+            <h3>RESERVATION</h3>
+            <button class="closing-btn"><i class="far fa-times-circle"></i></button>
+            <form>
+              <div class="form-row">
+                <select name="days">
+                  <option value="day-select">Select Day</option>
+                  <option value="Monday">Monday</option>
+                  <option value="Tuesday">Tuesday</option>
+                  <option value="Wednesday">Wednesday</option>
+                  <option value="Thursday">Thursday</option>
+                  <option value="Friday">Friday</option>
+                  <option value="Saturday">saturday</option>
+                  <option value="Sunday">sunday</option>
+                </select>
+                <select name="hours">
+                  <option value="hour-select">Select Hour</option>
+                  <option value="10">10:00</option>
+                  <option value="11">11:00</option>
+                  <option value="12">12:00</option>
+                  <option value="13">13:00</option>
+                  <option value="14">14:00</option>
+                  <option value="18">18:00</option>
+                  <option value="19">19:00</option>
+                  <option value="20">20:00</option>
+                  <option value="21">21:00</option>
+                  <option value="22">22:00</option>
+                </select>
+              </div>
+                <div class="form-row">
+                  <input type="text" placeholder="Full Name">
+                  <input type="text" placeholder="Phone Number">
+                </div>
+                <div class="form-row">
+                  <input type="number" placeholder="How many Persons?" min="1">
+                  <input type="submit" value="BOOK A TABLE">
+                </div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+      <a href=""><img class="logo-co" src="images/company-logo 2.png" alt=""></a>
+      <div class="header-right">
+        <nav class="nav-links">
+          <ul class="nav-menu">
+            <li class="nav-item"><a href="#about-ramen" class="nav-link">ABOUT RAMEN</a></li>
+            <li class="nav-item"><a href="#section-concept" class="nav-link">CONCEPT</a></li>
+            <li class="nav-item"><a href="#section-menu" class="nav-link">MENU</a></li>
+            <li class="nav-item"><a href="#section-info" class="nav-link">INFO</a></li>
+            <li class="nav-item"><button class="btn-header">Book a table</button></li>
+          </ul>
+          <div class="burger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </nav>
+      </div>
+    </header>
+  <!-- section-top -->
+    <section id="top-wrapper">
+      <div class="popup">
+        <h2>BOOK YOUR TABLE NOW</h2>
+        <div class="popup-content">
+          <div class="card-img"></div>
+          <div class="card-txt">
+            <h3>RESERVATION</h3>
+            <button class="closing-btn-second"><i class="far fa-times-circle"></i></button>
+            <form>
+              <div class="form-row">
+                <select name="days">
+                  <option value="day-select">Select Day</option>
+                  <option value="Monday">Monday</option>
+                  <option value="Tuesday">Tuesday</option>
+                  <option value="Wednesday">Wednesday</option>
+                  <option value="Thursday">Thursday</option>
+                  <option value="Friday">Friday</option>
+                  <option value="Saturday">saturday</option>
+                  <option value="Sunday">sunday</option>
+                </select>
+                <select name="hours">
+                  <option value="hour-select">Select Hour</option>
+                  <option value="10">10:00</option>
+                  <option value="11">11:00</option>
+                  <option value="12">12:00</option>
+                  <option value="13">13:00</option>
+                  <option value="14">14:00</option>
+                  <option value="18">18:00</option>
+                  <option value="19">19:00</option>
+                  <option value="20">20:00</option>
+                  <option value="21">21:00</option>
+                  <option value="22">22:00</option>
+                </select>
+              </div>
+                <div class="form-row">
+                  <input type="text" placeholder="Full Name">
+                  <input type="text" placeholder="Phone Number">
+                </div>
+                <div class="form-row">
+                  <input type="number" placeholder="How many Persons?" min="1">
+                  <input type="submit" value="BOOK A TABLE">
+                </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="bg-img"></div>
+        <div class="container top">
+        <div top-content>
+          <p>Welcome to Komugi</p>
+          <h1>
+            Japanese Noodle, Food and Sake Experience in Nice, Cote d'azur
+          </h1>
+          <button class="btn top" type="button">BOOK A TABLE</button>
+          <img
+            class="photo main"
+            src="images/top-main-pic.png"
+            alt="top-page-photo"
+          />
+          <img class="photo nice" src="images/nice.png" alt="nice-photo" />
+        </div>
+      </div>
+    </section>
+<!-- section about ramen -->
+    <section id="about-ramen">
+      <img class="about-photo" src="images/about-main.png" alt="">
+      <h2>What Ramen looks like</h2>
+      <div class="card egg">
+        <h3>Marinated Egg</h3>
+        <p> are the Japanese soft-boiled eggs known for its custardy jammy egg yolk and umami flavor. They are marinated overnight in a sweetened soy sauce. </p>
+      </div>
+      <div class="card pork">
+        <h3>Char Siu</h3>
+        <p> Char-siu is originally a Cantonese style of barbecued pork. It is eaten with rice, or used as an ingredient for noodle. We made it in the best way for our Ramen Noodle</p>
+      </div>
+      <div class="card greens">
+        <h3>Greens</h3>
+        <p>Adding chopped green onion gives the more aromatic flavor to the Ramen Noodle. Depends of a Ramen, it changes to Seaweed or Herbs, and more. </p>
+      </div>
+      <div class="card broth">
+        <h3>Noodle & Broth</h3>
+        <p>Chinese style wheat noodle served in a meat or fish-based broth. Our Ramen Noodle and Broth is 100% home made without any MSG. </p>
+      </div>
+    </section>
+    <!-- section concept -->
+    <section id="section-concept">
+      <div class="concept-bg">
+        <div class="veg-photo" style="background-image: url('images/legume-bgi.png');">
+          <h2>CONCEPT</h2>
+        </div>
+      </div>
+      <h3>Production and consumption of local food</h3>
+      <div class="concept-card">
+        <img class="pic prep-ramen" src="images/cooking-ramen.png" alt="">
+        <div class="text-card">
+          <h4>We are particular about local ingredients. </h4>
+          <p>We only use local fresh ingredients  on our Ramen noodle.
+            We aim to make safe and delicious ramen using plenty of ingredients
+            procured from partner farmers, and Marche. 
+            Enjoy delicious Southern France vegetables and ingredients grown in plenty
+            of sunlight. You’ll love our vegetalian Ramen broth when you have a sip.
+            </p>
+        </div>
+      </div>
+      <div class="concept-card">
+        <img class="pic fresh-ramen" src="images/fresh-ramen-photo.png" alt="">
+        <div class="text-card">
+          <h4>The noodle is the star of Ramen</h4>
+          <p>Like rice is the star of sushi. The real star of ramen is wheat.
+            Our Ramen Noodle is 100% home made. We brought a noodle machine
+            from Japan to make the best noodle. In order to make the best noodle,　everything is involved such as  the temperature, the weather, and the water. It is like a baking Baguette in France. 
+            We had installed a filter machine for water to change into soft water, this changes taste of noodles. 
+            To us, cooking a bowl of Ramen is a piece of Art!
+            </p>
+        </div>
+      </div>
+      <div class="concept-card">
+        <img class="pic sake" src="images/sake-photo.png" alt="">
+        <div class="text-card">
+          <h4>We  selected over 50 brands of Sake</h4>
+          <p>We select and stock 50 brands of sake carefully selected from all over Japan. Sake has the same individuality as wine, and the place of production gives it a unique taste. Our servers are familiar with the detailed knowledge of sake and will choose the best one that suits the mood of the day!
+            </p>
+        </div>
+      </div>
+    </section>
+    <!-- section menu -->
+    <section id="section-menu">
+      <div class="menu-heading">
+        <h5>The best noodle you've ever had</h5>
+        <h3>EXPLORER OUR MENU</h3>
+      </div>
+      <img class="menu-photo tonkotsu" src="images/ramen-menu-tonkotsu.png" alt="" >
+      <img class="menu-photo shio"src="images/ramen-menu-sio.png" alt="" >
+      <img class="menu-photo shoyu" src="images/ramen-menu-shoyu.png" alt="">
+      
+    
+      <div class="menu-wrapper">
+        <h4>RAMEN</h4>
+        <div class="menu-container">
+          <div class="menu-txt-card">
+            <div class="txt-price">
+              <p class="menu-list">Shio Ramen</p>
+              <div class="line"></div>
+              <p class="price">11€</p>
+            </div>
+            <p class="menu-txt">Salt taste, chicken and vegetable broth with Pork 2 Chachu and green onion.</p>
+          </div>
+          <div class="menu-txt-card">
+            <div class="txt-price">
+              <p class="menu-list">Shio Ramen Kiwami</p>
+              <div class="line"></div>
+              <p class="price">15€</p>
+            </div>
+            <p class="menu-txt">Salt taste, chicken,vegetable, fish broth with 8 Pork Chachu and green onion.</p>
+          </div>
+          <div class="menu-txt-card">
+            <div class="txt-price">
+              <p class="menu-list">Duck Shio Soba</p>
+              <div class="line"></div>
+              <p class="price">13€</p>
+            </div>
+            <p class="menu-txt">Salt taste, duck and vegetable broth with Duck  2 Chachu and green onion.</p>
+          </div>
+          <div class="menu-txt-card">
+            <div class="txt-price">
+              <p class="menu-list">Duck Shio Soba Kiwami</p>
+              <div class="line"></div>
+              <p class="price">16€</p>
+            </div>
+            <p class="menu-txt">Salt taste, duck and vegetable broth with Chicken 8 Chachu and green onion.</p>
+          </div>
+          <div class="menu-txt-card">
+            <div class="txt-price">
+              <p class="menu-list">Shoyu Ramen </p>
+              <div class="line"></div>
+              <p class="price">12€</p>
+            </div>
+            <p class="menu-txt">Salt taste, chicken and vegetable broth with Chachu and green onion.</p>
+          </div>
+          <div class="menu-txt-card">
+            <div class="txt-price">
+              <p class="menu-list">Shoyu Ramen Kiwami</p>
+              <div class="line"></div>
+              <p class="price">15€</p>
+            </div>
+            <p class="menu-txt">Soy sauce taste, chicken and vegetable broth with Chachu and green onion.</p>
+          </div>
+          <div class="menu-txt-card">
+            <div class="txt-price">
+              <p class="menu-list">Duck Shoyu Soba</p>
+              <div class="line"></div>
+              <p class="price">12€</p>
+            </div>
+            <p class="menu-txt">Soy sauce taste, chicken and vegetable broth with Chachu and green onion.</p>
+          </div>
+          <div class="menu-txt-card">
+            <div class="txt-price">
+              <p class="menu-list">Duck Shoyu Soba kiwami</p>
+              <div class="line"></div>
+              <p class="price">16€</p>
+            </div>
+            <p class="menu-txt">Soy sauce taste, duck and vegetable broth with Chachu and green onion.</p>
+          </div>
+          <div class="menu-txt-card">
+            <div class="txt-price">
+              <p class="menu-list">Tonkotsu Shoyu Ramen</p>
+              <div class="line"></div>
+              <p class="price">13€</p>
+            </div>
+            <p class="menu-txt">Soy sauce taste, pork bone broth with pork Chachu and green onion.</p>
+          </div>
+          <div class="menu-txt-card">
+            <div class="txt-price">
+              <p class="menu-list">Natto Rice Bowl</p>
+              <div class="line"></div>
+              <p class="price">10€</p>
+            </div>
+            <p class="menu-txt">Fermentate soy beans rice bowl with bite size pork, egg yolk, and green onions </p>
+          </div>
+          
+        </div>        
+      </div>
+
+      <div class="menu-wrapper">
+        <h4>A LA CARTE</h4>
+        <div class="menu-container">
+          <div class="menu-txt-card">
+            <div class="txt-price">
+              <p class="menu-list">Grilled Gyoza (6p)</p>
+              <div class="line"></div>
+              <p class="price">6€</p>
+            </div>
+            <p class="menu-txt">Grilled pork vegetable dumplings comes with 6p. </p>
+          </div>
+          <div class="menu-txt-card">
+            <div class="txt-price">
+              <p class="menu-list">Boiled Gyoza (6p)</p>
+              <div class="line"></div>
+              <p class="price">6€</p>
+            </div>
+            <p class="menu-txt">Boiled pork vegetable dumplings comes with 6p.</p>
+          </div>
+          <div class="menu-txt-card">
+            <div class="txt-price">
+              <p class="menu-list">Karage (6p)</p>
+              <div class="line"></div>
+              <p class="price">8€</p>
+            </div>
+            <p class="menu-txt">Japanese style soy sauce marinated fried chicken comes with 6p </p>
+          </div>
+          <div class="menu-txt-card">
+            <div class="txt-price">
+              <p class="menu-list">Yakitori (3p)</p>
+              <div class="line"></div>
+              <p class="price">6€</p>
+            </div>
+            <p class="menu-txt">Bite-size pieces of chicken on skewers choice of salt or soy sauce</p>
+          </div>
+          <div class="menu-txt-card">
+            <div class="txt-price">
+              <p class="menu-list">Fried Tofu bite</p>
+              <div class="line"></div>
+              <p class="price">5€</p>
+            </div>
+            <p class="menu-txt">Deep fried tofu cut in bite size with soy sauce and green onion.</p>
+          </div>
+          <div class="menu-txt-card">
+            <div class="txt-price">
+              <p class="menu-list">Forest Salad</p>
+              <div class="line"></div>
+              <p class="price">7€</p>
+            </div>
+            <p class="menu-txt">Green salad with Japanese style dressing, mushroom,root vegetables, and bacon  </p>
+          </div>
+          <div class="menu-txt-card">
+            <div class="txt-price">
+              <p class="menu-list">Cheese Platter</p>
+              <div class="line"></div>
+              <p class="price">10€</p>
+            </div>
+            <p class="menu-txt">Great platter for Sake! Comes with Brie, Blue, Maroilles, etc</p>
+          </div>
+          <div class="menu-txt-card">
+            <div class="txt-price">
+              <p class="menu-list">Otsumami Char-siu</p>
+              <div class="line"></div>
+              <p class="price">8€</p>
+            </div>
+            <p class="menu-txt">6 slices of roast pork. Good for appetizer!</p>
+          </div>
+          <div class="menu-txt-card">
+            <div class="txt-price">
+              <p class="menu-list">Sashimi combo</p>
+              <div class="line"></div>
+              <p class="price">25€</p>
+            </div>
+            <p class="menu-txt">Assorted fresh raw fish sliced into thin pieces of the day </p>
+          </div>
+          <div class="menu-txt-card">
+            <div class="txt-price">
+              <p class="menu-list">Saute de Foie Gras</p>
+              <div class="line"></div>
+              <p class="price">19€</p>
+            </div>
+            <p class="menu-txt">Saute de Foie Gras with special sauce and vegetable. Best with Sake! </p>
+          </div>
+        </div>        
+      </div>
+        
+    
+      <div class="menu-wrapper">
+        <h4>DRINKS</h4>
+        <div class="menu-container">
+          <div class="menu-txt-card">
+            <div class="txt-price">
+              <p class="menu-list">Kirin Beer</p>
+              <div class="line"></div>
+              <p class="price">4.5€</p>
+            </div>
+            <p class="menu-txt">Famous Japanese beer which has a little rich taste</p>
+          </div>
+          <div class="menu-txt-card">
+            <div class="txt-price">
+              <p class="menu-list">Asahi Super Dry</p>
+              <div class="line"></div>
+              <p class="price">4.5€</p>
+            </div>
+            <p class="menu-txt">Famous Japanese beer which has sharp taste</p>
+          </div>
+          <div class="menu-txt-card">
+            <div class="txt-price">
+              <p class="menu-list">Selected Sake</p>
+              <div class="line"></div>
+              <p class="price">ASK</p>
+            </div>
+            <p class="menu-txt">Please refer to another menu at our restaurant</p>
+          </div>
+          <div class="menu-txt-card">
+            <div class="txt-price">
+              <p class="menu-list">Plum Wine</p>
+              <div class="line"></div>
+              <p class="price">4€</p>
+            </div>
+            <p class="menu-txt">Sweet plum flavored wine which is best for aperitif or desert</p>
+          </div>
+          <div class="menu-txt-card">
+            <div class="txt-price">
+              <p class="menu-list">Ramune Lemonade</p>
+              <div class="line"></div>
+              <p class="price">3€</p>
+            </div>
+            <p class="menu-txt">Japanese style unique lemonade, you need to push a marble to open it! </p>
+          </div>
+          <div class="menu-txt-card">
+            <div class="txt-price">
+              <p class="menu-list">Coca Cola</p>
+              <div class="line"></div>
+              <p class="price">3€</p>
+            </div>
+            <p class="menu-txt">Normal cola</p>
+          </div>
+          <div class="menu-txt-card">
+            <div class="txt-price">
+              <p class="menu-list">Diet coke</p>
+              <div class="line"></div>
+              <p class="price">3€</p>
+            </div>
+            <p class="menu-txt">Diet coca cola</p>
+          </div>
+          <div class="menu-txt-card">
+            <div class="txt-price">
+              <p class="menu-list">Green Tea</p>
+              <div class="line"></div>
+              <p class="price">3€</p>
+            </div>
+            <p class="menu-txt">Japanese style green tea choice of cold or hot</p>
+          </div>
+          <div class="menu-txt-card">
+            <div class="txt-price">
+              <p class="menu-list">Oolong Tea</p>
+              <div class="line"></div>
+              <p class="price">3€</p>
+            </div>
+            <p class="menu-txt">Chinese style green tea choice of cold or hot</p>
+          </div>
+          <div class="menu-txt-card">
+            <div class="txt-price">
+              <p class="menu-list">Fruits Juice</p>
+              <div class="line"></div>
+              <p class="price">3€</p>
+            </div>
+            <p class="menu-txt">Fruits Juice choice of Apple, Orange, and Tropical</p>
+          </div>
+        </div>        
+      </div>
+    </section>
+    <!-- gallery  -->
+    <section id="section-gallery">
+      <div class="container">
+        <div class="panel active" style="background-image: 
+        url('images/kamo-shio.png')">
+            <h3>Duck Shio Ramen</h3>
+        </div>
+        <div class="panel" style="background-image: 
+        url('images/shioPork.png')">
+            <h3>Pork Shio Ramen</h3>
+        </div>
+        <div class="panel" style="background-image: 
+        url('images/natto-riceBowl.png')">
+            <h3>Natto Rice Bowl</h3>
+        </div>
+        <div class="panel" style="background-image: 
+        url('images/gyoza.png')">
+            <h3>Home made Gyoza</h3>
+        </div>
+        <div class="panel" style="background-image: 
+        url('images/sake.png')">
+            <h3>Selected Sake</h3>
+        </div>
+    </div>
+  </section>
+
+    <!-- information -->
+<section id="section-info">
+  <div class="info-bgi" style="background-image: url('images/info-restaurant-bgi.png');">
+    <h2>INFORMATION</h3>
+  </div>
+  <div class="info-card-wrapper">
+    <div class="square1">
+      <div class="square-content">
+        <h4>TEL</h4>
+        <p>07 87 87 87</p>
+        <h4>ADDRESS</h4>
+        <p>3 PI. Rossetti,<br> 06300 Nice</p>
+      </div>
+      <img  class="info-ramen-photo" src="images/infio-ramen-photo.png" alt="">
+    </div>
+    <div class="square2"></div>
+  </div>
+
+  <iframe  class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5769.519852595805!2d7.270726616844563!3d43.69475420790446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12cdd059cc1c5ad1%3A0xca7e75a94dd67eef!2sProm.%20des%20Anglais%2C%20Nice!5e0!3m2!1sja!2sfr!4v1637570558926!5m2!1sja!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+<div class="info-wrapper">
+  <div class="info-txt-content">
+    <h3>JOIN  OUR RESTAURANT FOR A NEW UP DATE, AND MORE.</h3>
+    <p>Stay up-to-date with our up coming  events, seasonal specials, and promotions</p>
+    <form action="">
+      <div class="form-content">
+        <input type="text" class="enter-address" onfocus="this.value=''" value="Enter your email address">
+        <input type="submit" class="sign-up-btn" value="SIGN ME UP!">
+      </div>
+    </form>
+  </div>
+</div>
+</section>
+<!-- section-footer -->
+<section id="section-footer">
+  <footer>
+    <div class="icons logo">
+      <a href=""><img class="logo-co-footer" src="images/company-logo 2.png" alt="company-logo"></a>
+      <a href=""><i class="fas fa-chevron-up icon-arrow"></i></a>
+    </div>
+    <div class="icons sns">
+      <ul>
+        <li><a href=""><i class="fab fa-twitter"></i></a></li>
+        <li><a href=""><i class="fab fa-instagram"></i></a></li>
+        <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+      </ul>
+    </div>
+    <div class="footer-txt1">
+      <ul>
+        <li><a href="">HOME</a></li>
+        <li><a href="">MENU</a></li>
+        <li><a href="">CATERING</a></li>
+        <li><a href="">LOCATION</a></li>
+      </ul>
+    </div>
+    <div class="footer-txt2">
+      <ul>
+        <li><a href="">CONTACT</a></li>
+        <li><a href="">SNS</a></li>
+        <li><a href="">BLOG</a></li>
+      </ul>
+    </div>
+    <div class="footer-txt-3">
+      <p>JAPANESE NOODLE, FOOD, SAKE RESTAURANT LOCATED IN NICE COTE D'AZUR</p>
+    </div>
+  </footer>
+
+</section>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
+
